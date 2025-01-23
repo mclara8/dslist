@@ -25,5 +25,10 @@ public class GameListService {
 		List<GameList> result = gameListRepository.findAll();
 		return result.stream().map(GameListDTO :: new).toList();	 	 
 	}
+
+	public GameListDTO findById(long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 }
