@@ -31,6 +31,7 @@ INDEX VERSION 1.134+C:\Users\marii\OneDrive\Área de Trabalho\dslist\.metadata\.
 355823222.index
 1151216016.index
 1163408744.index
+830647530.index
 1958746109.index
 1585007208.index
 4124287704.index
