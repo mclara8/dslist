@@ -8,7 +8,6 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
-
 @Entity 
 @Table(name = "tb_game_list")
 public class GameList {
@@ -56,10 +55,6 @@ public class GameList {
 		if (getClass() != obj.getClass())
 			return false;
 		GameList other = (GameList) obj;
-		return id == other.id;
-	}
-	
-	
-	
-	
+		return Objects.equals(id, other.id);
+	}	
 }

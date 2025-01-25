@@ -133,9 +133,6 @@ public class Game {
 		if (getClass() != obj.getClass())
 			return false;
 		Game other = (Game) obj;
-		return id == other.id;
-	}
-	
-	
-	
+		return Objects.equals(id, other.id);
+	}	
 }
