@@ -19,5 +19,5 @@ public interface GameRepository extends JpaRepository<Game, Long> {
 			ORDER BY tb_belonging.position
 				""")
 	
-	List<GameMinProjection> searchByList(long listId);
+	List<GameMinProjection> searchByList(Long listId);
 }

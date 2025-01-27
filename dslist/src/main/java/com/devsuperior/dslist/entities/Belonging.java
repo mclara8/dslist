@@ -31,11 +31,11 @@ public class Belonging {
 		return id.getList();
 	}
 
-	public Integer getPosition() {
+	public int getPosition() {
 		return position;
 	}
 
-	public void setPosition(Integer position) {
+	public void setPosition(int position) {
 		this.position = position;
 	}
 
